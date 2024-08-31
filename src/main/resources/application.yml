@@ -7,6 +7,6 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/train?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true&rewriteBatchedStatements=truejdbc:mysql://127.0.0.1:3306/train?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true
+    url: jdbc:mysql://127.0.0.1:3306/ticket?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true&rewriteBatchedStatements=truejdbc:mysql://127.0.0.1:3306/train?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&useSSL=false&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true
     username: root
-    password: root
+    password: root@123
