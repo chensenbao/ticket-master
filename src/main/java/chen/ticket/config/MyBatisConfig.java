@@ -20,7 +20,7 @@ import java.sql.SQLException;
  * @author: sen
  */
 @Configuration
-@MapperScan(value = "chen.chentool.trainTicket.dao")
+@MapperScan(value = "chen.ticket.dao")
 public class MyBatisConfig {
 
     @Value("${spring.datasource.type}")

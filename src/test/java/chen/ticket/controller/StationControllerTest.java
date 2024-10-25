@@ -15,7 +15,7 @@ public class StationControllerTest {
 private StationController stationController;
     @Test
     public void getSiteInfo() {
-        String siteInfo = stationController.getSiteInfo("");
+        String siteInfo = stationController.setSiteInfo("");
         System.out.println(siteInfo);
     }
 }
